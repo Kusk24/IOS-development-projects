@@ -1,0 +1,75 @@
+{
+    "Places": [
+	 {
+		 "FacultyName" : "Vincent Mary School of Science and Technology",
+		 "Abbreviation" : "VMS",
+		 "ImageLogoName" : "vms_logo.png",
+		 "LocationLat" : 13.613239,
+		 "LocationLong" : 100.835531
+	 },
+	 {
+		"FacultyName": "Vincent Mary School of Engineering",
+		"Abbreviation": "VME",
+		"ImageLogoName" : "vme_logo.png",
+		"LocationLat": 13.613145, 
+		"LocationLong": 100.835811
+	},
+	{
+		 "FacultyName" : "Albert Laurence School of Communication Arts",
+		 "Abbreviation" : "CA",
+		 "ImageLogoName" : "ca_logo.png",
+		 "LocationLat" : 13.612227, 
+		 "LocationLong" : 100.835039
+	},
+	{
+		 "FacultyName" : "School of Biotechnology",
+		 "Abbreviation" :"BS",
+		 "ImageLogoName" : "bs_logo.png",
+		 "LocationLat" : 13.612766,
+		 "LocationLong" : 100.840549
+	},
+	{
+		 "FacultyName" : "Montfort Del Rosario School of Architecture and Design",
+		 "Abbreviation" : "AR",
+		 "ImageLogoName" : "ar_logo.png",
+		 "LocationLat" : 13.612125,
+		 "LocationLong" : 100.835519,
+		 "LocationLong": 100.835315
+	},
+	{
+		 "FacultyName" : "School of Law",
+		 "Abbreviation" : "LAW",
+		 "ImageLogoName" : "law_logo.png",
+		 "LocationLat" : 13.611869,
+		 "LocationLong" : 100.837477
+	},
+	{
+		 "FacultyName" : "School of Music",
+		 "Abbreviation" : "MS",
+		 "ImageLogoName" : "ms_logo.png",
+		 "LocationLat" : 13.612264,
+		 "LocationLong" : 100.837577
+	},
+	{
+		 "FacultyName" : "Martin De Tours School of Management and Economics",
+		 "Abbreviation" : "MSME",
+		 "ImageLogoName" : "msme_logo.png",
+		 "LocationLat" : 13.612958,
+		 "LocationLong" : 100.836499
+	},
+	{
+		 "FacultyName" : "Faculty of Nursing Science",
+		 "Abbreviation" : "NS",
+		 "ImageLogoName" : "ns_logo.png",
+		 "LocationLat" : 13.612219,
+		 "LocationLong" : 100.838038
+	},
+	{
+		 "FacultyName" : "Theodore Maria School of Arts",
+		 "Abbreviation" : "ARTS",
+		 "ImageLogoName" : "arts_logo.png",
+		 "LocationLat" : 13.611520,
+		 "LocationLong" : 100.837211
+	}
+    ]
+}

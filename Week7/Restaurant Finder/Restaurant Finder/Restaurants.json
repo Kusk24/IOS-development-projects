@@ -1,0 +1,94 @@
+{
+    "items" : [
+        {
+            "name": "Gaggan Anand",
+            "location": "Langsuan, Bangkok",
+            "description": "A progressive Indian cuisine restaurant by Chef Gaggan Anand, offering a unique dining experience with molecular gastronomy and creative presentation. The restaurant has won numerous awards and is a must-visit for food enthusiasts.",
+            "rating": 2,
+            "openingTime": "18:00 - 23:00",
+            "price": "฿4,000 - ฿6,000",
+            "images": ["1", "2", "3"]
+        },
+        {
+            "name": "Bo.Lan",
+            "location": "Sukhumvit 53, Bangkok",
+            "description": "Bo.Lan is a fine-dining restaurant focusing on traditional Thai cuisine with an emphasis on sustainability. The restaurant uses organic and locally sourced ingredients, offering a true taste of Thailand's rich culinary heritage.",
+            "rating": 5,
+            "openingTime": "18:00 - 22:00",
+            "price": "฿2,500 - ฿4,000",
+            "images": ["4", "5", "6"]
+        },
+        {
+            "name": "Nahm",
+            "location": "Sathorn, Bangkok",
+            "description": "Award-winning Thai restaurant by Chef David Thompson, known for its authentic flavors and exquisite presentation. Nahm offers a sophisticated dining experience with a menu that highlights traditional Thai dishes and fresh, local ingredients.",
+            "rating": 1.5,
+            "openingTime": "12:00 - 14:00, 18:00 - 22:00",
+            "price": "฿2,000 - ฿3,500",
+            "images": ["7", "8", "9"]
+        },
+        {
+            "name": "Le Du",
+            "location": "Silom, Bangkok",
+            "description": "Modern Thai cuisine with a focus on seasonal ingredients and innovative techniques. Le Du is celebrated for its creative dishes that blend traditional Thai flavors with contemporary culinary methods, making it a favorite among food lovers.",
+            "rating": 2.8,
+            "openingTime": "18:00 - 23:00",
+            "price": "฿1,800 - ฿3,000",
+            "images": ["10", "11", "12"]
+        },
+        {
+            "name": "Issaya Siamese Club",
+            "location": "Sathorn, Bangkok",
+            "description": "A century-old Thai villa turned into a charming restaurant serving contemporary Thai dishes. Issaya Siamese Club offers a unique dining experience with a menu that combines traditional Thai flavors with modern culinary techniques in a beautiful, historic setting.",
+            "rating": 4.5,
+            "openingTime": "11:30 - 14:30, 18:00 - 22:30",
+            "price": "฿1,500 - ฿2,500",
+            "images": ["13", "14", "15"]
+        },
+        {
+            "name": "Sorn",
+            "location": "Sukhumvit 26, Bangkok",
+            "description": "Southern Thai cuisine with an emphasis on local ingredients and traditional cooking methods. Sorn is known for its rich and flavorful dishes that showcase the culinary traditions of southern Thailand, offering a truly authentic dining experience.",
+            "rating": 4.9,
+            "openingTime": "17:30 - 23:00",
+            "price": "฿3,000 - ฿5,000",
+            "images": ["16", "17", "18"]
+        },
+        {
+            "name": "Jay Fai",
+            "location": "Maha Chai Rd, Bangkok",
+            "description": "Famous street food restaurant known for its crab omelette and Michelin star. Jay Fai offers a unique blend of street food authenticity and high culinary standards, making it a popular destination for both locals and tourists.",
+            "rating": 4.3,
+            "openingTime": "14:30 - 21:30",
+            "price": "฿800 - ฿1,500",
+            "images": ["19", "20", "21"]
+        },
+        {
+            "name": "Paste",
+            "location": "Ploenchit, Bangkok",
+            "description": "Innovative Thai cuisine with a focus on ancient recipes and modern techniques. Paste offers a refined dining experience with a menu that brings together the best of traditional Thai flavors and contemporary culinary artistry.",
+            "rating": 4.6,
+            "openingTime": "12:00 - 14:00, 18:30 - 23:00",
+            "price": "฿2,000 - ฿3,500",
+            "images": ["22", "23", "24"]
+        },
+        {
+            "name": "Soul Food Mahanakorn",
+            "location": "Thonglor, Bangkok",
+            "description": "Casual dining with a variety of Thai street food dishes and creative cocktails. Soul Food Mahanakorn is known for its vibrant atmosphere and delicious food, making it a great spot for a laid-back dining experience with friends.",
+            "rating": 4.4,
+            "openingTime": "17:30 - 23:00",
+            "price": "฿500 - ฿1,000",
+            "images": ["25", "26", "27"]
+        },
+        {
+            "name": "Err Urban Rustic Thai",
+            "location": "Maharaj Rd, Bangkok",
+            "description": "Rustic Thai dishes with a focus on local ingredients and traditional cooking methods. Err Urban Rustic Thai offers a cozy and authentic dining experience with a menu that highlights the best of Thai comfort food.",
+            "rating": 4.5,
+            "openingTime": "11:00 - 22:00",
+            "price": "฿600 - ฿1,200",
+            "images": ["28", "29", "30"]
+        }
+    ]
+}
