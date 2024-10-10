@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Planets" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="LoT-Ja-l68">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="D5E-Rf-fbt">
+                                    <size key="itemSize" width="122" height="163"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="S2O-1P-83V" customClass="PlanetCell" customModule="Planets" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="122" height="163"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="qXC-Bm-uy7">
+                                            <rect key="frame" x="0.0" y="0.0" width="122" height="163"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bYL-5Q-dfo">
+                                                    <rect key="frame" x="8" y="8" width="106" height="118"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="104" id="7d1-At-c0M"/>
+                                                        <constraint firstAttribute="height" constant="104" id="tsK-LY-6uF"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VGg-B4-QXu">
+                                                    <rect key="frame" x="8" y="134" width="106" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="104" id="EmM-fS-V9c"/>
+                                                        <constraint firstAttribute="height" constant="21" id="nrJ-Xu-Fjr"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="bYL-5Q-dfo" secondAttribute="trailing" constant="8" id="3Fv-Iv-a2X"/>
+                                                <constraint firstItem="bYL-5Q-dfo" firstAttribute="leading" secondItem="qXC-Bm-uy7" secondAttribute="leading" constant="8" id="53e-Vn-gIo"/>
+                                                <constraint firstAttribute="trailing" secondItem="VGg-B4-QXu" secondAttribute="trailing" constant="8" id="9bZ-gS-b4w"/>
+                                                <constraint firstAttribute="bottom" secondItem="VGg-B4-QXu" secondAttribute="bottom" constant="8" id="Dca-c9-8W2"/>
+                                                <constraint firstItem="VGg-B4-QXu" firstAttribute="top" secondItem="bYL-5Q-dfo" secondAttribute="bottom" constant="8" id="UFr-A3-acO"/>
+                                                <constraint firstItem="VGg-B4-QXu" firstAttribute="leading" secondItem="qXC-Bm-uy7" secondAttribute="leading" constant="8" id="ggB-HR-bPD"/>
+                                                <constraint firstItem="bYL-5Q-dfo" firstAttribute="top" secondItem="qXC-Bm-uy7" secondAttribute="top" constant="8" id="lXT-6m-woh"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                        <size key="customSize" width="122" height="163"/>
+                                        <connections>
+                                            <outlet property="planetimage" destination="bYL-5Q-dfo" id="qIY-am-IeW"/>
+                                            <outlet property="planetname" destination="VGg-B4-QXu" id="IZm-kr-cHj"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="atr-gE-x9q"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="t5U-KK-bE5"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-118.32061068702289" y="3.5211267605633805"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="blf-gR-5yO">
+            <objects>
+                <viewController storyboardIdentifier="Detail" id="5L6-j7-wBs" customClass="DetailViewController" customModule="Planets" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4vm-yc-TMB">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="F4A-KL-Byq">
+                                <rect key="frame" x="12" y="152" width="369" height="343"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JHv-Ck-Luh">
+                                <rect key="frame" x="16" y="543" width="361" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="701-uc-XYh"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="701-uc-XYh" firstAttribute="trailing" secondItem="JHv-Ck-Luh" secondAttribute="trailing" constant="16" id="3so-y6-dXq"/>
+                            <constraint firstItem="701-uc-XYh" firstAttribute="bottom" secondItem="JHv-Ck-Luh" secondAttribute="bottom" constant="227" id="C9X-n3-2kM"/>
+                            <constraint firstItem="701-uc-XYh" firstAttribute="trailing" secondItem="F4A-KL-Byq" secondAttribute="trailing" constant="12" id="Qv8-mL-cx6"/>
+                            <constraint firstItem="JHv-Ck-Luh" firstAttribute="top" secondItem="F4A-KL-Byq" secondAttribute="bottom" constant="48" id="ntz-O9-5py"/>
+                            <constraint firstItem="F4A-KL-Byq" firstAttribute="top" secondItem="701-uc-XYh" secondAttribute="top" constant="93" id="rfC-g2-axO"/>
+                            <constraint firstItem="F4A-KL-Byq" firstAttribute="leading" secondItem="701-uc-XYh" secondAttribute="leading" constant="12" id="wGQ-M6-GJV"/>
+                            <constraint firstItem="JHv-Ck-Luh" firstAttribute="leading" secondItem="701-uc-XYh" secondAttribute="leading" constant="16" id="znm-Yx-LaT"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="planetImage" destination="F4A-KL-Byq" id="g95-vv-Yr5"/>
+                        <outlet property="planetName" destination="JHv-Ck-Luh" id="lGK-oz-d6R"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5AZ-rJ-bD9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="758.01526717557249" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
